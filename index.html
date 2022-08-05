@@ -22,7 +22,7 @@
 
         <!---------------------------------------------------- NAVBAR STARTS ---------------------------------------------------->
 
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar fixed-top navbar-expand-lg">
 
                 <a class="navbar-brand" href="#"><img src="assets/logo.svg" alt="App Team Carolina Logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,9 +33,12 @@
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0 links-list">
                         <li class="nav-item">
                             <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> <- this is how to set current page + add 'active' to li class --> 
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#missions">About</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home-teams">Teams</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkTeams" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               Teams
                             </a>
@@ -46,8 +49,11 @@
                               <a class="dropdown-item" href="#">Production</a>
                               <a class="dropdown-item" href="#">C-Suite</a>
                             </div>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#apps">Apps</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkApps" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               Apps
                             </a>
@@ -55,15 +61,15 @@
                               <a class="dropdown-item" href="#">Bubbly</a>
                               <a class="dropdown-item" href="#">Centible</a>
                             </div>
-                        </li>
+                        </li> -->
                         <!-- <li class="nav-item">
                             <a class="nav-link disabled" href="#">Disabled</a>
                         </li> -->
                         <!-- <li class="nav-item">
                             <a class="nav-link" href="#">Connect</a>
                         </li> -->
-                        <li class="nav-item button">
-                            <a class="nav-link" href="#">Apply</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#quick-apply">Apply</a>
                         </li>
                     </ul>
                 </div>
@@ -102,8 +108,8 @@
            <!-- <div id="parallax-1" class="bg-holder" data-width="1024" data-height="768"> -->
 
                 <div class="section-header">
-                    <h2 class="display-6 section-title">This is what we're all about.</h2>
-                    <div class="button more-btn">Learn More <img class="chevron" src="assets/chevron-right.svg"></div>
+                    <h2 class="display-6 section-title">The Purpose.</h2>
+                    <!-- <div class="button more-btn">Learn More <img class="chevron" src="assets/chevron-right.svg"></div> -->
                 </div>
 
             <!-- </div>  -->
@@ -115,12 +121,10 @@
                         <div class="card-body">
                             <h4 class="card-title"><img class="missions-icon icon" src="assets/idea.svg" alt="Lightbulb Icon">Learn</h4>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-                                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                                consequat.
+                                We strive to provide quality education pertaining to the iOS app-making process from design to 
+                                development. Our curriculum covers a wealth of information that you will not learn in Computer 
+                                Science classes, and our passionate and hardworking instructors strive to provide you with the 
+                                most successful learning environment possible. 
                             </p>
                         </div>
                     </div>
@@ -128,14 +132,12 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title"><img class="missions-icon icon" src="assets/tools.svg" alt="Lightbulb Icon">Design</h4>
+                            <h4 class="card-title"><img class="missions-icon icon" src="assets/bezier.svg" alt="Lightbulb Icon">Design</h4>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-                                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                                consequat.
+                                We hold high standards for the look and feel of our products because we know that apps must be 
+                                intuitive, attractive, and exciting in order to be successful. We strive to provide unique design 
+                                insight to our members, and we encourage all members to gain an understanding and respect for the 
+                                importance of good design.
                             </p>
                         </div>
                     </div>
@@ -143,14 +145,12 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title"><img class="missions-icon icon" src="assets/tools.svg" alt="Lightbulb Icon">Produce</h4>
+                            <h4 class="card-title"><img class="missions-icon icon" src="assets/tools.svg" alt="Lightbulb Icon">Develop</h4>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-                                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                                consequat.
+                                We provide iOS developers of all skill levels the opportunity to improve their programming skills 
+                                and ultimately produce real apps with our team. We hope our members will see our team as a welcoming 
+                                community for iOS developers and enthusiasts to learn, grow, and create together while gaining the 
+                                skills necessary to be successful in the industry. 
                             </p>
                         </div>
                     </div>
@@ -161,12 +161,12 @@
 
             <div class="background-graphic-wave">
                 <div class="gallery">
-                    <img src="assets/images/4.jpeg">
+                    <img src="assets/images/alec-teach.jpg">
                     <img src="assets/images/8.JPG">
-                    <img src="assets/images/12.png">
-                    <img src="assets/images/9.JPG">
+                    <img src="assets/images/quechula.png">
+                    <img src="assets/images/sam-teach.jpg">
                     <img src="assets/images/1.JPG">
-                    <img src="assets/images/5.png">
+                    <img src="assets/images/womenintech.png">
                 </div>
             </div>
 
@@ -181,8 +181,8 @@
             <!-- <div id="parallax-2" class="bg-holder" data-width="1024" data-height="768"> -->
 
                 <div class="section-header">
-                    <h2 class="display-6 section-title">This is our structure.</h2>
-                    <div class="button more-btn">Learn More <img class="chevron" src="assets/chevron-right.svg"></div>
+                    <h2 class="display-6 section-title">The Structure.</h2>
+                    <!-- <div class="button more-btn">Learn More <img class="chevron" src="assets/chevron-right.svg"></div> -->
                 </div>
 
             <!-- </div>  -->
@@ -195,19 +195,23 @@
                     <div class="card">
                         <div class="card-body">
                             <p class="label learning"><mark>Learning</mark></p>
-                            <h4 class="card-title"><img class="teams-icon icon" src="assets/idea.svg" alt="Lightbulb Icon">iOS Academy</h4>
+                            <h4 class="card-title"><img class="teams-icon icon" src="assets/books.svg" alt="Lightbulb Icon">iOS Academy</h4>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. 
+                                Learn the fundamentals of building high-quality iOS applications with Swift, SwiftUI, and 
+                                Xcode. iOS Academy members gain experience turning app ideas into reality.
+                                <br/><br/>
                             </p>
+                            <div class="instructor">
+                                <img class="instructor-pic" src="assets/alec.png" alt="Alec Nipp">
+                                <p><b>Alec Nipp</b><i>, iOS Academy Lead</i></p>
+                            </div>
 
                             <!-- <blockquote class="blockquote">
                                 <p class="mb-0">"I’m so thankful that I joined App Team because I’ve befriended such a great and unique group of people, and because it’s opened new doors while i progress further in my career in CS."</p>
                                 <footer class="blockquote-footer">Ciya Joseph, Spring 2022 iOS Academy Member</footer>
                             </blockquote> -->
 
-                            <div class="button secondary">Tell me more</div>
+                            <!-- <div class="button secondary">Tell me more</div> -->
                         </div>
                     </div>
                 </div>
@@ -216,40 +220,49 @@
                     <div class="card">
                         <div class="card-body">
                             <p class="label learning"><mark>Learning</mark></p>
-                            <h4 class="card-title"><img class="teams-icon icon" src="assets/idea.svg" alt="Lightbulb Icon">Design Academy</h4>
+                            <h4 class="card-title"><img class="teams-icon icon" src="assets/eyedropper.svg" alt="Lightbulb Icon">Design Academy</h4>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. 
+                                Become proficient in the craft of designing amazing digital products. Design Academy members 
+                                learn the fundamentals of creating top-tier user interfaces and user experiences.
+                                <br/><br/>
                             </p>
+                            <div class="instructor">
+                                <img class="instructor-pic" src="assets/daniella.jpg" alt="Alec Nipp">
+                                <p><b>Daniella Escobar</b><i>, Design Academy Lead</i></p>
+                            </div>
 
                             <!-- <blockquote class="blockquote">
                                 <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                 <footer class="blockquote-footer">Someone famous in Source Title</footer>
                             </blockquote> -->
 
-                            <div class="button secondary">Tell me more</div>
+                            <!-- <div class="button secondary">Tell me more</div> -->
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card third">
                         <div class="card-body">
                             <p class="label learning"><mark>Learning</mark></p>
-                            <h4 class="card-title"><img class="teams-icon icon" src="assets/idea.svg" alt="Lightbulb Icon">iOS Apprenticeship</h4>
+                            <h4 class="card-title"><img class="teams-icon icon" src="assets/blocks.svg" alt="Lightbulb Icon">iOS Apprenticeship</h4>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. 
+                                Transform your fundamental iOS development knowledge into mastery with this project-focused 
+                                education experience. Build real, impressive iOS apps while solidifying the basics, and 
+                                learning advanced concepts.
+                                <br/>
                             </p>
+                            <div class="instructor">
+                                <img class="instructor-pic" src="assets/sam.jpeg" alt="Alec Nipp">
+                                <p><b>Sam Shi</b><i>, iOS Apprenticeship Lead</i></p>
+                            </div>
 
                             <!-- <blockquote class="blockquote">
                                 <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                 <footer class="blockquote-footer">Someone famous in Source Title</footer>
                             </blockquote> -->
 
-                            <div class="button secondary">Tell me more</div>
+                            <!-- <div class="button secondary">Tell me more</div> -->
                         </div>
                     </div>
                 </div>
@@ -262,19 +275,29 @@
                     <div class="card">
                         <div class="card-body">
                             <p class="label production"><mark>Production</mark></p>
-                            <h4 class="card-title"><img class="teams-icon icon" src="assets/tools.svg" alt="Lightbulb Icon">Client Team</h4>
+                            <h4 class="card-title"><img class="teams-icon icon" src="assets/client.svg" alt="Lightbulb Icon">Client Team</h4>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. 
+                                Experience the rewarding process of bringing a client's vision to life with an expert team 
+                                of developers, designers, and product managers. It doesn't get any closer to real-world industry 
+                                experience than this.
                             </p>
+                            <div class="prod-leads">
+                                <div class="instructor">
+                                    <img class="instructor-pic" src="assets/mackenzie.jpg" alt="Alec Nipp">
+                                    <p><b>Mackenzie Perry</b><i>, Production Lead</i></p>
+                                </div>
+                                <div class="instructor">
+                                    <img class="instructor-pic" src="assets/morgan.jpeg" alt="Alec Nipp">
+                                    <p><b>Morgan Roberts</b><i>, Production Lead</i></p>
+                                </div>
+                            </div>
 
                             <!-- <blockquote class="blockquote">
                                 <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                 <footer class="blockquote-footer">Someone famous in Source Title</footer>
                             </blockquote> -->
 
-                            <div class="button secondary">Tell me more</div>
+                            <!-- <div class="button secondary">Tell me more</div> -->
                         </div>
                     </div>
                 </div>
@@ -283,19 +306,28 @@
                     <div class="card">
                         <div class="card-body">
                             <p class="label production"><mark>Production</mark></p>
-                            <h4 class="card-title"><img class="teams-icon icon" src="assets/tools.svg" alt="Lightbulb Icon">Start-up Team</h4>
+                            <h4 class="card-title"><img class="teams-icon icon" src="assets/rocket.svg" alt="Lightbulb Icon">Start-up Team</h4>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. 
+                                Exercise your creative freedom by working with a seamless and experienced team of developers, designers, and 
+                                product managers to build apps that are completely original. 
                             </p>
+                            <div class="prod-leads">
+                                <div class="instructor">
+                                    <img class="instructor-pic" src="assets/abraham.jpg" alt="Alec Nipp">
+                                    <p><b>Abraham Alonge</b><i>, Production Lead</i></p>
+                                </div>
+                                <div class="instructor">
+                                    <img class="instructor-pic" src="assets/george.jpg" alt="Alec Nipp">
+                                    <p><b>George Andrade</b><i>, Production Lead</i></p>
+                                </div>
+                            </div>
 
                             <!-- <blockquote class="blockquote">
                                 <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                 <footer class="blockquote-footer">Someone famous in Source Title</footer>
                             </blockquote> -->
 
-                            <div class="button secondary">Tell me more</div>
+                            <!-- <div class="button secondary">Tell me more</div> -->
                         </div>
                     </div>
                 </div>
@@ -318,44 +350,44 @@
             <!-- <div id="parallax-3" class="bg-holder" data-width="1024" data-height="768"> -->
 
                 <div class="section-header">
-                    <h2 class="display-6 section-title">Products made with passion.</h2>
+                    <h2 class="display-6 section-title">The Products.</h2>
                     <div class="spacer"></div>
                 </div>
 
             <!-- </div>  -->
             
             <div class="row section-content">
-                <div class="col-md-6">
+                <div class="app col-lg-6 col-md-12 col-sm-12">
                     <div class="card apps">
-                        <img class="card-img-top" src="assets/centible-ph.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/centible-01.svg" alt="Card image cap">
                         <div class="card-body apps-card">
                             <div class="apps-header">
                                 <h4 class="card-title"><img class="apps-icon icon" src="assets/centible.png" alt="Centible Icon">Centible</h4>
-                                <p><i>Spring 2022</i></p>
+                                <p><i>Started Spring 2022</i></p>
                             </div>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. 
+                                This app helps college students manage their finances by syncing with their banks to track spending 
+                                and allowing the user to sort their transactions into custom categories. 
+                                <br/><br/>
                             </p>
-                            <div class="button secondary">Tell me more</div>
+                            <!-- <div class="button secondary">Tell me more</div> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class=" app col-lg-6 col-md-12 col-sm-12">
                     <div class="card apps">
-                        <img class="card-img-top" src="assets/bubbly-ph.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/bubbly-01.png" alt="Card image cap">
                         <div class="card-body apps-card">
                             <div class="apps-header">
                                 <h4 class="card-title"><img class="apps-icon icon" src="assets/bubbly-icon.svg" alt="Bubbly Icon">Bubbly</h4>
-                                <p><i>Fall 2021</i></p>
+                                <p><i>Started Fall 2021</i></p>
                             </div>
                             <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                laboris nisi ut aliquip ex ea commodo consequat. 
+                                This is a brain training game app intended to help improve vision in children and adolescents 
+                                with Cortical Visual Impairment (CVI), a disorder that is caused by damage to the parts of the 
+                                brain that process vision, which disrupts the brain's communication with the eyes.
                             </p>
-                            <div class="button secondary">Tell me more</div>
+                            <!-- <div class="button secondary">Tell me more</div> -->
                         </div>
                     </div>
                 </div>
@@ -365,6 +397,35 @@
 
         <!---------------------------------------------------- APPS SUMMARY ENDS ---------------------------------------------------->
 
+        <!---------------------------------------------------- QUOTES SECTION STARTS ---------------------------------------------------->
+
+        <!-- <div id="quotes" class="section-content">
+
+            <div class="quote">
+                <img class="quote-pic" src="assets/jackson.JPG" alt="Jackson Dowden">
+                <blockquote class="blockquote quote1">
+                    <p class="mb-0">
+                        “I learned more in App Team last semester than some of my classes. Sam is an amazing and engaging 
+                        teacher who puts so much effort into making sure you learn iOS. The mix of lessons and projects really helped 
+                        me master iOS concepts and be more confident as a programmer as a whole.”
+                    </p>
+                    <footer class="blockquote-footer">Jackson Dowden (Class of '23, Member since Spring 2022</footer>
+                </blockquote>
+            </div>
+            
+
+            <blockquote class="blockquote quote2">
+                <p class="mb-0">
+                    “App team, especially production, provides students with a unique opportunity to get industry like 
+                    experience. It’s an opportunity unlike anything any other student group provides.”
+                </p>
+                <footer class="blockquote-footer">Mackenzie Perry (Class of '25, Member since Fall 2021)</footer>
+            </blockquote>
+
+        </div> -->
+
+        <!---------------------------------------------------- QUOTES SECTION ENDS ---------------------------------------------------->
+
         <!---------------------------------------------------- QUICK APPLY STARTS ---------------------------------------------------->
 
         <div id="quick-apply" class="section apply">
@@ -372,9 +433,132 @@
             <div class="section-content">
 
                 <h1 class="logo"><img class="logo" src="assets/logo.svg"></h1>
-                <h1 class="display-5 apply-header">Learn. Develop. Design.</h1>
+                <h1 class="display-5 apply-header">Learn. Design. Develop.</h1>
                 <div class="button-container">
-                    <div class="button apply-button">Apply Now for Fall 2022</div>
+                    <div class="button apply-button btn btn-primary" type="button" data-toggle="modal" data-target=".bd-example-modal-lg">Apply Now for Fall 2022</div>
+                    
+                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+
+                            <div class="modal-head">
+                                <h3>Which Role is Right for You?</h3>
+                                <h3 type="button" data-dismiss="modal" aria-label="close">&#10005;</h3>
+                            </div>
+                               
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="team-head">
+                                                <div class="team-head-text">
+                                                    <h5>iOS Trainee</h5>
+                                                    <p>iOS Academy</p>
+                                                </div>
+                                                
+                                                <p class="label learning"><mark>Learning</mark></p>
+                                            </div>
+                                            <!-- <p class="modal-team">iOS Academy</p> -->
+                                            <p class="req">Applicants for this role should have:</p>
+                                            <ul>
+                                                <li>COMP 110 or equivalent programming experience</li>
+                                                <li>Passion for all things iOS</li>
+                                                <li>A desire and willingness to learn</li>
+                                            </ul>
+
+                                            <div class="button modal-apply">Apply Now</div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="card second">
+                                        <div class="card-body">
+                                            <div class="team-head">
+                                                <div class="team-head-text">
+                                                    <h5>Design Trainee</h5>
+                                                    <p>Design Academy</p>
+                                                </div>
+                                                
+                                                <p class="label learning"><mark>Learning</mark></p>
+                                            </div>
+                                            <!-- <p class="modal-team">Design Academy</p> -->
+                                            <p class="req">Applicants for this role should have:</p>
+                                            <ul>
+                                                <li>Basic knowledge of design principles</li>
+                                                <li>Passion for all things iOS</li>
+                                                <li>Desire and willingness to learn</li>
+                                            </ul>
+
+                                            <div class="button modal-apply">Apply Now</div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="team-head">
+                                                <div class="team-head-text">
+                                                    <h5>iOS Developer</h5>
+                                                    <p>Production Team</p>
+                                                </div>
+                                                
+                                                <p class="label production"><mark>Production</mark></p>
+                                            </div>
+                                            <!-- <p class="modal-team">Production</p> -->
+                                            <p class="req">Applicants for this role should have:</p>
+                                            <ul>
+                                                <li>???</li>
+                                                <li>Internship or equivalent experience with iOS development.</li>
+                                                <li>Passion for all things iOS.</li>
+                                            </ul>
+
+                                            <div class="button modal-apply">Apply Now</div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="team-head">
+                                                <div class="team-head-text">
+                                                    <h5>UI/UX Designer</h5>
+                                                    <p>Production Team</p>
+                                                </div>
+                                                
+                                                <p class="label production"><mark>Production</mark></p>
+                                            </div>
+                                            <!-- <p class="modal-team">Production</p> -->
+                                            <p class="req">Applicants for this role should have:</p>
+                                            <ul>
+                                                <li>Previous knowledge of UI/UX principles.</li>
+                                                <li>Coursework or internship experience in UI/UX or related field.</li>
+                                                <li>Passion for all things iOS.</li>
+                                            </ul>
+
+                                            <div class="button modal-apply">Apply Now</div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                          </div>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="progress">
@@ -407,29 +591,35 @@
 
         <!---------------------------------------------------- CONNECT SECTION STARTS ---------------------------------------------------->
 
-        <div id="connect">
+        <!-- <div id="connect">
 
-            <!-- <div class="section-content">
-                <h1 class="display-5 connect-header">Stay Connected.</h1>
+            <div class="section-content">
                 <div class="social-media">
-                    <img class="social-icon" src="assets/linkedin.png">
-                    <img class="social-icon" src="assets/instagram.jpeg">
-                    <img class="social-icon" src="assets/twitter.jpeg">
-                    <img class="social-icon" src="https://freesvg.org/img/Mail-Icon-White-on-Grey.png">
+                    <img class="social-icon" src="assets/icons-01.svg">
+                    <img class="social-icon" src="assets/icons-02.svg">
+                    <img class="social-icon" src="assets/icons-03.svg">
+                    <img class="social-icon" src="assets/icons-04.svg">
+                    <img class="social-icon" src="assets/icons-05.svg">
                 </div>
-                <div class="social-buttons">
-                    <div class="button"><img src="assets/icons8-email-open-32.png" style="width: 20px; height: 20px; margin-bottom: 5px; margin-right: 5px;"> Subscribe to Our Newsletter</div>
-                </div>
-            </div> -->
+            </div>
 
-        </div>
+        </div> -->
 
         <!---------------------------------------------------- CONNECT SECTION ENDS ---------------------------------------------------->
 
         <!---------------------------------------------------- FOOTER STARTS ---------------------------------------------------->
 
         <div id="footer">
-            <p>Made with &hearts; by App Team Carolina in Chapel Hill, NC &copy; 2022</p>
+            <div class="footer-content">
+                <p>Made with &hearts; by App Team Carolina in Chapel Hill, NC &copy; 2022</p>
+                <div class="social-media">
+                    <a href="#"><img class="social-icon" src="assets/icons-01.svg"></a>
+                    <a href="#"><img class="social-icon" src="assets/icons-02.svg"></a>
+                    <a href="#"><img class="social-icon" src="assets/icons-03.svg"></a>
+                    <a href="#"><img class="social-icon" src="assets/icons-04.svg"></a>
+                    <a href="#"><img class="social-icon" src="assets/icons-05.svg"></a>
+                </div>
+            </div>
         </div>
 
         <!---------------------------------------------------- FOOTER ENDS ---------------------------------------------------->
