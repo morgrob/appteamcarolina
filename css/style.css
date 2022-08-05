@@ -429,14 +429,12 @@ mark {
 }
 .apply-button {
     margin-bottom: 100px !important;
-    height: 50px;
-    width: 350px;
     background-color: #ff0099 !important;
     border: none !important;
     border-radius: 100rem !important;
 }
 .apply-button h4 {
-    margin-top: 4px;
+    margin: 10px 20px;
 }
 .button-container {
     width: 100%;
@@ -524,9 +522,6 @@ mark {
     .second {
         margin-bottom: 0px !important;
     }
-    .apply-button h4 {
-        margin-top: 12px;
-    }
 }
 /* -------------------------------------------------- APPLY SECTION STYLES END -------------------------------------------------- */
 
@@ -610,7 +605,7 @@ mark {
         height: 250px;
     }
     .footer-content {
-        margin-bottom: 100px;
+        margin-bottom: 130px;
     }
   }
 
