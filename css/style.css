@@ -96,19 +96,19 @@ nav {
   and (max-width: 1024px) {
     .links-list, .collapse {
         margin-left: 0px;
-        background-color: rgba(0, 0, 0, 0.2);
-        backdrop-filter: blur(20px) saturate(160%) contrast(80%) brightness(50%);
-        -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+        background-color: rgb(15, 15, 15);
         transform: translateX(-10px);
         width: 100vw;
+        border-bottom: 1px solid rgb(30, 30, 30);
     }
     nav {
-        background-color: rgba(0, 0, 0, 0.2);
-        backdrop-filter: blur(20px) saturate(160%) contrast(80%) brightness(50%);
-        -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+        background-color: rgb(15, 15, 15);
     }
     .nav-link {
         margin: 10px 0;
+    }
+    .last-link {
+        margin-bottom: 20px;
     }
   }
 
