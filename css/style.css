@@ -255,8 +255,8 @@ nav {
 } */
 
 .card {
-    background-color: #161616 !important;
-    border: 1px solid #2f2f2f !important;
+    background-color: rgb(20, 20, 20) !important;
+    border: 1px solid rgb(40, 40, 40) !important;
 }
 /* #missions .row {
     margin: 70px 4vw !important;
@@ -607,7 +607,7 @@ mark {
     #footer {
         background-size: contain;
         background-position: bottom;
-        height: 300px;
+        height: 250px;
     }
     .footer-content {
         margin-bottom: 150px;
