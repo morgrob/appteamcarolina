@@ -577,7 +577,8 @@ mark {
 #footer {
     background-image: url(../assets/unc-skyline.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: bottom;
     height: 550px;
     display: flex;
     flex-direction: column;
