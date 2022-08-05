@@ -491,14 +491,13 @@ mark {
     justify-content: space-between;
 }
 .team-head h5 {
-    font-family: 'Comfortaa', cursive;
     font-weight: bold;
     margin: 0;
 }
 .team-head-text p {
-    font-family: 'Comfortaa', cursive;
     margin-top: 3px;
     margin-bottom:8px;
+    font-weight: bold;
 }
 .modal-apply {
     margin-top: 20px;
