@@ -219,7 +219,7 @@ nav {
 
 @media only screen and (max-width: 700px) {
     #landing {
-        margin: 10vh 0vw;
+        margin: 8vh 0vw;
     }
     .jumbotron .container h1 {
         font-size: 24pt;
@@ -300,7 +300,7 @@ nav {
         margin: 10px;
     }
     #missions .card {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .section-header {
         margin: 20px 5vw;
@@ -430,7 +430,7 @@ mark {
 .apply-button {
     font-size: 16pt !important;
     margin-bottom: 100px !important;
-    padding: 10px 30px !important;
+    padding: 12px 30px !important;
     background-color: #ff0099 !important;
     border: none !important;
     border-radius: 100rem !important;
@@ -521,9 +521,6 @@ mark {
     }
     .second {
         margin-bottom: 0px !important;
-    }
-    .apply-button {
-        padding-top: 3px;
     }
 }
 /* -------------------------------------------------- APPLY SECTION STYLES END -------------------------------------------------- */
