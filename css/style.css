@@ -524,6 +524,9 @@ mark {
     .second {
         margin-bottom: 0px !important;
     }
+    .apply-button h4 {
+        margin-top: 8px;
+    }
 }
 /* -------------------------------------------------- APPLY SECTION STYLES END -------------------------------------------------- */
 
@@ -575,7 +578,6 @@ mark {
     background-image: url(../assets/unc-skyline.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     height: 550px;
     display: flex;
     flex-direction: column;
