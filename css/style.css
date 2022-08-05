@@ -525,7 +525,7 @@ mark {
         margin-bottom: 0px !important;
     }
     .apply-button h4 {
-        margin-top: 8px;
+        margin-top: 12px;
     }
 }
 /* -------------------------------------------------- APPLY SECTION STYLES END -------------------------------------------------- */
@@ -602,6 +602,14 @@ mark {
     .social-icon {
         width: 30px;
         height: 30px;
+    }
+    #footer {
+        background-size: contain;
+        background-position: bottom;
+        height: 300px;
+    }
+    .footer-content {
+        margin-bottom: 150px;
     }
   }
 
