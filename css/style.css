@@ -676,3 +676,26 @@ mark {
 }
 
 /* -------------------------------------------------- BUTTON STYLES END -------------------------------------------------- */
+
+
+
+
+.disabled {
+    background-color: rgb(40, 40, 40);
+    border-radius: 100px;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+    display: inline-block;
+    overflow: hidden;
+    padding: 10px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 100px !important;
+    border: none !important;
+    border-radius: 100rem !important;
+}
+.disabled h4 {
+    margin: 10px 20px;
+    opacity: 0.7;
+}
