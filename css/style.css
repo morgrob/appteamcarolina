@@ -53,12 +53,19 @@ nav {
     backdrop-filter: blur(20px) saturate(160%) contrast(80%) brightness(50%);
     -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
 }
-/* .links-list {
-    margin-left: 64%;
-} */
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+
+    nav {
+        background-color: rgb(15, 15, 15);
+    }
+}}
 .links-list li {
     margin: 0 12px;
     padding: 0 12px;
+}
+.navbar-nav {
+    transform: translateY(8px);
 }
 .nav-link {
     color: white;
