@@ -529,6 +529,9 @@ mark {
     .second {
         margin-bottom: 0px !important;
     }
+    .last {
+        margin-top: 0px !important;
+    }
 }
 /* -------------------------------------------------- APPLY SECTION STYLES END -------------------------------------------------- */
 
