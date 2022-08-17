@@ -685,12 +685,20 @@ mark {
     right: -100%;
 }
 
+/* @media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+
+    .apply-button  {
+        background-color: black !important;
+    }
+}} */
+
 /* -------------------------------------------------- BUTTON STYLES END -------------------------------------------------- */
 
 
 
 
-.disabled {
+/* .disabled {
     background-color: rgb(40, 40, 40);
     border-radius: 100px;
     border: none;
@@ -708,4 +716,4 @@ mark {
 .disabled h4 {
     margin: 10px 20px;
     opacity: 0.7;
-}
+} */
