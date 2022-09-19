@@ -16,7 +16,7 @@ body {
     padding: 0;
 }
 .section {
-    height: 100vh;
+    min-height: 100vh !important;
 }
 .section-content {
     margin: 70px 5vw !important;
@@ -243,7 +243,7 @@ nav {
 /* -------------------------------------------------- MISSIONS SECTION STYLES START -------------------------------------------------- */
 
 #missions {
-    height: 110vh;
+    min-height: 100vh !important;
     padding-top: 5px;
 }
 /* .bg-holder {
@@ -357,9 +357,9 @@ mark {
 }
 
 @media only screen and (max-width: 700px) {
-    .section {
+    /* .section {
         height: auto;
-    }
+    } */
     #home-teams .card {
         margin-bottom: 30px;
     }
@@ -375,6 +375,18 @@ mark {
     }
     .prod-leads .instructor {
         margin-bottom: 10px;
+    }
+    .mobile-card-margin-1 {
+        margin-top: 30px !important;
+    }
+    .mobile-card-margin-2 {
+        margin-top: 60px !important;
+    }
+    .mobile-card-margin-3 {
+        margin-top: 90px !important;
+    }
+    #apps {
+        margin-top: 150px;
     }
 }
 
@@ -395,6 +407,7 @@ mark {
 }
 #apps {
     padding-top: 5px;
+    /* min-height: 100vh; */
 }
 
 /* -------------------------------------------------- APPS SECTION STYLES END -------------------------------------------------- */
@@ -409,7 +422,7 @@ mark {
 /* -------------------------------------------------- APPLY SECTION STYLES START -------------------------------------------------- */
 
 #quick-apply {
-    height: 100vh !important;
+    min-height: 100vh !important;
 }
 .apply {
     display: flex;
@@ -719,4 +732,8 @@ mark {
 .disabled h4 {
     margin: 10px 20px;
     opacity: 0.7;
+}
+
+.card {
+    height: 100%;
 }
