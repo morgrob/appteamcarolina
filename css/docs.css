@@ -19,9 +19,12 @@ p, ul, li {
     .title {
         font-size: 32pt;
     }
+    .container {
+        width: 90vw !important;
+    }
 }
 .back img {
-    width: 12%;
+    width: 175px;
     margin: 20px;
 }
 a {
