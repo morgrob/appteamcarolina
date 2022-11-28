@@ -3,7 +3,7 @@
 
 html {
     scroll-behavior: smooth;
-    height: 100%;
+    height: 100vh;
 
 }
 
@@ -12,7 +12,7 @@ body {
     background-size: cover;
     color: white !important;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    height: 100%;
+    min-height: 100vh !important;
 }
 
 .flex-container {
@@ -29,6 +29,8 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     height: 92%;
+    margin-left: 15%;
+    margin-right: 10%;
 }
 
 .aligner {
@@ -45,21 +47,22 @@ body {
 }
 
 .left {
-    width: 50%;
+    width: 45%;
     height: 100%;
-    float: left;
+    margin: 0 auto;
 }
 
 .right {
-    width: 50%;
-    float:left;
+    width: 45%;
     height: 100%;
+    margin: 0 auto;
+
 }
 
 .logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
     width: 80%;
 }
 
@@ -71,15 +74,15 @@ body {
 }
 
 .caption {
-    margin-left: 35%;
-    margin-right: 10%;
-    font-size: 20px;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    font-size: 28px;
     letter-spacing: 5%;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .button-section {
-    margin-left: 35%;
+    /* margin-left: 10%; */
     margin-right: 10%;
 }
 
@@ -97,12 +100,17 @@ body {
     column-gap: 6%;
     justify-content: center;
     margin-left: auto;
-    
 }
 
 
 .button {
     width: 47%;
+}
+.button img {
+    width: 100%;
+}
+.button:hover {
+    transform: scale(1.05);
 }
 
 #download_button {
@@ -114,6 +122,16 @@ body {
     /* width: 40%; */
     aspect-ratio: 3.33;
 } 
+video {
+    width: 60%;
+    margin: 0 20%;
+}
+.title {
+    margin-left: 20%;
+}
+#demo {
+    height: 88vh;
+}
 
 
 @media (max-width: 800px) {
@@ -121,10 +139,15 @@ body {
     .caption {
         text-align: center;
     }
-
-    body {
-        height: auto;
+    .flex-container {
+        margin: 0;
     }
+    .button-section {
+        margin-right: 0;
+    }
+    /* body {
+        height: auto;
+    } */
     .aligner {
         height: auto;
     }
@@ -132,8 +155,9 @@ body {
     .left {
         width: 80%;
         height: 100%;
-        float: left;
-        margin-top: 32px;
+        margin-top: 30%;
+        margin-left: auto;
+        margin-right: auto;
         /*background-color: red;*/
     }
     
@@ -141,12 +165,26 @@ body {
         padding-top: 60px;
         width: 100%;
         height: 100%;
+        margin-bottom: 30%;
     }
-
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
     .mockupimage {
         width: 60%;
         margin-left: auto;
         margin-right: auto;
+    }
+    video {
+        width: 90%;
+        margin: 0 5%;
+    }
+    .title {
+        margin-left: 5%;
+    }
+    #demo {
+        height: 70vh;
     }
 }
 
@@ -202,3 +240,11 @@ body {
 
   }
 
+  a {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease-in-out;
+  }
+  a:hover {
+    color: #A373FF;
+  }
