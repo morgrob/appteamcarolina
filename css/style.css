@@ -5,7 +5,7 @@ html {
 }
 body {
     background-color: rgb(15, 15, 15) !important;
-    background-image: url(../assets/website-background-01.svg);
+    background-image: url(../assets/green-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: white !important;
@@ -30,7 +30,7 @@ body {
 .section-title {
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
-    background: linear-gradient(180deg, rgba(255,255,255,0) 50%, #c30084 50%);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 50%, #005B25 50%);
 }
 .icon {
     width: 30px;
@@ -73,7 +73,7 @@ nav {
     transition: 0.25s ease-in-out;
 }
 .nav-link:hover {
-    color: #ff9fde;
+    color: #B4FFD2;
 }
 .button {
     border: 1px solid black;
@@ -271,7 +271,7 @@ nav {
 .gallery img {
     height: 200px;
     border-radius: 200px;
-    border: 2px solid #ffbdec;
+    border: 2px solid #B4FFD2;
 }
 .gallery {
     margin: 0 5vw;
@@ -323,13 +323,13 @@ nav {
     background-size: cover;
 } */
 mark {
-    background-color: #960060 !important;
+    background-color: #003E19 !important;
     padding: 2px 5px !important;
     color: white !important;
     border-radius: 3px;
 }
 .production mark {
-    background-color: #ff9fde !important;
+    background-color: #87F2B2 !important;
     color: black !important;
 }
 .second-row {
@@ -345,7 +345,7 @@ mark {
     width: 35px;
     height: 35px;
     border-radius: 100rem;
-    border: 1px solid #ff9fde;
+    border: 1px solid #B4FFD2;
 }
 .instructor p {
     margin: 6px 15px;
@@ -440,7 +440,7 @@ mark {
     border-radius: 100px !important;
 }
 .progress-bar {
-    background-color: #ff0099 !important;
+    background-color: #1F974F !important;
 }
 .apply-header {
     text-align: center;
@@ -449,7 +449,7 @@ mark {
 }
 .apply-button {
     margin-bottom: 100px !important;
-    background-color: #ff0099 !important;
+    background-color: #005B25 !important;
     border: none !important;
     border-radius: 100rem !important;
 }
@@ -481,7 +481,7 @@ mark {
 .apply-button:hover, .apply-button:focus {
     /* box-shadow: 0 8px 12px rgba(0,0,0,0.1), inset 0 10px 30px rgba(255,147,210,0.3), inset 0 2px 2px rgba(255,255,255,0.2); */
     color: white;
-    background-color: #ff40c9 !important; 
+    background-color: #097D37 !important; 
     cursor: pointer;
 }
 .modal-content {
@@ -652,11 +652,11 @@ mark {
 }
 
 .secondary {
-    background-color: #63003d !important;
+    background-color: #003E19 !important;
 }
 
 .button {
-    background: #c30084;
+    background: #097D37;
     /* border: 1px solid #c40091; */
     /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
     display: inline-block;
@@ -689,7 +689,7 @@ mark {
 .button:hover, .button:focus {
     /* box-shadow: 0 8px 12px rgba(0,0,0,0.1), inset 0 10px 30px rgba(255,147,210,0.3), inset 0 2px 2px rgba(255,255,255,0.2); */
     color: white;
-    background-color: #ff0099 !important; 
+    background-color: #097D37 !important; 
     cursor: pointer;
 }
 
