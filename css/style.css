@@ -21,6 +21,12 @@ body {
 .section-content {
     margin: 70px 5vw !important;
 }
+.blurb {
+    margin: 30px 5vw;
+}
+.pillar-content {
+    margin: 0px 5vw 40px;
+}
 .section-header {
     display: flex;
     justify-content: space-between;
@@ -351,6 +357,12 @@ mark {
     margin: 6px 15px;
     font-size: 10pt;
 }
+.client-instructor p {
+    margin: 0px 15px;
+}
+.instructor p i {
+    font-size: 9pt;
+}
 .prod-leads {
     display: flex;
     justify-content: space-between;
@@ -387,6 +399,9 @@ mark {
     }
     #apps {
         margin-top: 150px;
+    }
+    .client-instructor p {
+        margin: 6px 15px;
     }
 }
 
@@ -674,7 +689,7 @@ mark {
 }
 
 .button:before {
-    background: linear-gradient(transparent 0%, rgba(255,147,210,0.6) 50%, transparent 100%);
+    background: linear-gradient(transparent 0%, rgba(255, 255, 255, 0.6) 50%, transparent 100%);
     content:'';
     height: 200%;
     position: absolute;
