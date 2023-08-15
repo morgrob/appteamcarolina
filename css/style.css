@@ -652,7 +652,7 @@ mark {
 /* -------------------------------------------------- BUTTON STYLES START -------------------------------------------------- */
 
 .button {
-    color: white;
+    color: white !important;
     border-radius: 100px;
     border: none;
     font-family: 'Comfortaa', cursive;
