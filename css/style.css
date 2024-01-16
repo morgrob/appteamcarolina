@@ -46,10 +46,30 @@ body {
 
 /* -------------------------------------------------- NAVBAR STYLES START -------------------------------------------------- */
 
+.banner {
+    height: 50px;
+    width: 100vw;
+    background: linear-gradient(45deg, #133989, #051942);
+}
+.banner p {
+    padding-top: 3px;
+    width: 100%;
+    text-align: center;
+}
+.banner a {
+    color: #7CA4FA;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: 0.25s ease-in-out;
+}
+.banner a:hover {
+    color: #b9cfff;
+}
 .navbar-brand {
     width: 40px;
 }
 nav {
+    margin-top: 50px;
     width: 100vw;
     height: 8vh;
     display: flex;
