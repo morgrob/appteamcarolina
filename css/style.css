@@ -260,6 +260,12 @@ nav {
     .jumbotron .container h2 {
         font-size: 16pt;
     }
+    .banner {
+        height: 75px !important;
+    }
+    nav {
+        margin-top: 75px;
+    }
 }
 
 /* !!! ADD MEDIA QUERIES FOR LANDING HERE !!! */
