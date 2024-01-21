@@ -301,7 +301,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 50px;
-    transform: translateY(-30px);
+    /* transform: translateY(-30px); */
 }
 
 @media only screen  
