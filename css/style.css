@@ -4,8 +4,8 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: rgb(15, 15, 15) !important;
-    background-image: url(../assets/dblue-bg.png);
+    background-color: #0D050B !important;
+    /* background-image: url(../assets/armygreen-bg.png); */
     background-repeat: no-repeat;
     background-size: cover;
     color: white !important;
@@ -36,7 +36,7 @@ body {
 .section-title {
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
-    background: linear-gradient(180deg, rgba(255,255,255,0) 50%, #133989 50%);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 50%, #401A39 50%);
 }
 .icon {
     width: 26px;
@@ -46,24 +46,51 @@ body {
 
 /* -------------------------------------------------- NAVBAR STYLES START -------------------------------------------------- */
 
+.announcement-banner {
+    width: 100vw;
+    height: 6vh;
+    padding: 6vh;
+    border-bottom: 1px solid #4D1F45;
+    background: linear-gradient(45deg, #1A0A17, #33142E);
+}
+.announcement-banner p {
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+}
+.announcement-banner p a, .announce-link {
+    color: #E58AD6;
+    font-weight: bold;
+}
+.announce-link:hover {
+    color: #E58AD6;
+}
+#announcement-section {
+    min-height: 100vh;
+    width: 100vw;
+    padding: 20vh 25vw;
+}
 .navbar-brand {
     width: 40px;
 }
 nav {
+    margin-top: 6vh;
     width: 100vw;
     height: 8vh;
     display: flex;
     justify-content: space-between;
     /* border: 1px solid green; */
-    background-color: rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(20px) saturate(160%) contrast(80%) brightness(50%);
-    -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+    background-color: rgba(13, 5, 11, 0.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    /* backdrop-filter: blur(20px) saturate(160%) contrast(80%) brightness(50%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%); */
 }
 @media not all and (min-resolution:.001dpcm)
 { @supports (-webkit-appearance:none) {
 
     nav {
-        background-color: rgb(15, 15, 15);
+        background-color: rgb(13, 5, 11);
     }
 }}
 .links-list li {
@@ -79,7 +106,7 @@ nav {
     transition: 0.25s ease-in-out;
 }
 .nav-link:hover {
-    color: #4677DE;
+    color: #D977C8;
 }
 .button {
     border: 1px solid black;
@@ -95,7 +122,7 @@ nav {
     color: white !important;
 }
 .dropdown-menu {
-    background-color: black !important;
+    background-color: #0D050B !important;
 }
 .dropdown-item {
     color: white !important;
@@ -109,13 +136,13 @@ nav {
   and (max-width: 1024px) {
     .links-list, .collapse {
         margin-left: 0px;
-        background-color: rgb(15, 15, 15);
+        background-color: rgb(13, 5, 11);
         transform: translateX(-10px);
         width: 100vw;
         border-bottom: 1px solid rgb(30, 30, 30);
     }
     nav {
-        background-color: rgb(15, 15, 15);
+        background-color: rgb(13, 5, 11);
     }
     .nav-link {
         margin: 10px 0;
@@ -243,6 +270,15 @@ nav {
     .banner {
         height: 75px !important;
     }
+    .announcement-banner {
+        height: 9vh;
+    }
+    nav {
+        margin-top: 9vh;
+    }
+    #announcement-section {
+        padding: 20vh 5vw;
+    }
 }
 
 /* !!! ADD MEDIA QUERIES FOR LANDING HERE !!! */
@@ -271,8 +307,8 @@ nav {
 } */
 
 .card {
-    background-color: rgb(20, 20, 20) !important;
-    border: 1px solid rgb(40, 40, 40) !important;
+    background-color: rgb(26, 10, 23, 0.5) !important;
+    border: 1px solid rgb(36, 20, 33) !important;
 }
 
 .card-title {
@@ -284,7 +320,7 @@ nav {
 .gallery img {
     height: 200px;
     border-radius: 200px;
-    border: 2px solid #4677DE;
+    border: 2px solid #CC66BB;
 }
 .gallery {
     margin: 0 5vw;
@@ -336,13 +372,13 @@ nav {
     background-size: cover;
 } */
 mark {
-    background-color: #0B2A6B !important;
+    background-color: #803373 !important;
     padding: 2px 5px !important;
     color: white !important;
     border-radius: 3px;
 }
 .production mark {
-    background-color: #4677DE !important;
+    background-color: #401A39 !important;
     color: white !important;
 }
 .second-row {
@@ -431,6 +467,12 @@ mark {
     padding-top: 5px;
     /* min-height: 100vh; */
 }
+.project-content {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    justify-content: space-between;
+}
 
 /* -------------------------------------------------- APPS SECTION STYLES END -------------------------------------------------- */
 
@@ -443,6 +485,27 @@ mark {
 
 /* -------------------------------------------------- APPLY SECTION STYLES START -------------------------------------------------- */
 
+.spacing-application-active {
+    display: flex;
+    flex-direction: column;
+    height: 92%;
+    justify-content: space-between;
+}
+.spacing-application {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    justify-content: space-between;
+}
+.spacing-application-other {
+    display: flex;
+    flex-direction: column;
+    height: 89%;
+    justify-content: space-between;
+}
+.role-content {
+    margin-bottom: 20px;
+}
 #quick-apply {
     min-height: 100vh !important;
 }
@@ -471,7 +534,7 @@ mark {
 }
 .apply-button {
     margin-bottom: 100px !important;
-    background-color: #2F5EBF !important;
+    background-color: #67295D !important;
     border: none !important;
     border-radius: 100rem !important;
 }
@@ -503,7 +566,7 @@ mark {
 .apply-button:hover, .apply-button:focus {
     /* box-shadow: 0 8px 12px rgba(0,0,0,0.1), inset 0 10px 30px rgba(255,147,210,0.3), inset 0 2px 2px rgba(255,255,255,0.2); */
     color: white;
-    background-color: #2F5EBF !important; 
+    background-color: #4D1F45 !important; 
     cursor: pointer;
 }
 .modal-content {
@@ -561,11 +624,15 @@ mark {
     .modal .card {
         margin-bottom: 30px;
     }
-    .second {
+    /* .second {
         margin-bottom: 0px !important;
-    }
+    } */
     .last {
         margin-top: 0px !important;
+    }
+    .second-space {
+        margin-bottom: 15px !important;
+        margin-top: 15px !important;
     }
 }
 /* -------------------------------------------------- APPLY SECTION STYLES END -------------------------------------------------- */
@@ -674,11 +741,11 @@ mark {
 }
 
 .secondary {
-    background-color: #2F5EBF !important;
+    background-color: #803373 !important;
 }
 
 .button {
-    background: #2F5EBF;
+    background: #803373;
     /* border: 1px solid #c40091; */
     /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
     display: inline-block;
@@ -711,7 +778,7 @@ mark {
 .button:hover, .button:focus {
     /* box-shadow: 0 8px 12px rgba(0,0,0,0.1), inset 0 10px 30px rgba(255,147,210,0.3), inset 0 2px 2px rgba(255,255,255,0.2); */
     color: white;
-    background-color: #4677DE !important; 
+    background-color: #4D1F45 !important; 
     cursor: pointer;
 }
 
@@ -738,16 +805,14 @@ mark {
 
 .disabled {
     background-color: rgb(40, 40, 40);
-    border-radius: 100px;
-    border: none;
     font-family: 'Comfortaa', cursive;
-    display: inline-block;
-    overflow: hidden;
+    /* display: inline-block; */
+    /* overflow: hidden; */
     padding: 10px 20px;
-    position: relative;
+    /* position: relative; */
     text-align: center;
     text-decoration: none;
-    margin-bottom: 100px !important;
+    /* margin-bottom: 100px !important; */
     border: none !important;
     border-radius: 100rem !important;
 }
