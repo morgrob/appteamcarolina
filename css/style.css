@@ -46,7 +46,7 @@ body {
 
 /* -------------------------------------------------- NAVBAR STYLES START -------------------------------------------------- */
 
-.announcement-banner {
+/* .announcement-banner {
     width: 100vw;
     height: 6vh;
     padding: 6vh;
@@ -64,7 +64,7 @@ body {
 }
 .announce-link:hover {
     color: #E58AD6;
-}
+} */
 #announcement-section {
     min-height: 100vh;
     width: 100vw;
@@ -74,7 +74,7 @@ body {
     width: 40px;
 }
 nav {
-    margin-top: 6vh;
+    /* margin-top: 6vh; */
     width: 100vw;
     height: 8vh;
     display: flex;
@@ -270,15 +270,15 @@ nav {
     .banner {
         height: 75px !important;
     }
-    .announcement-banner {
+    /* .announcement-banner {
         height: 12vh;
-    }
-    nav {
+    } */
+    /* nav {
         margin-top: 12vh;
-    }
-    #announcement-section {
+    } */
+    /* #announcement-section {
         padding: 20vh 5vw;
-    }
+    } */
 }
 
 /* !!! ADD MEDIA QUERIES FOR LANDING HERE !!! */
