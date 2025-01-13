@@ -4,7 +4,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: #0D050B !important;
+    background-color: #0b151c !important;
     /* background-image: url(../assets/armygreen-bg.png); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,7 +36,7 @@ body {
 .section-title {
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
-    background: linear-gradient(180deg, rgba(255,255,255,0) 50%, #401A39 50%);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 50%, #2F5B79 50%);
 }
 .icon {
     width: 26px;
@@ -80,7 +80,7 @@ nav {
     display: flex;
     justify-content: space-between;
     /* border: 1px solid green; */
-    background-color: rgba(13, 5, 11, 0.2);
+    background-color: rgba(11, 21, 28, 0.2);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     /* backdrop-filter: blur(20px) saturate(160%) contrast(80%) brightness(50%);
@@ -90,7 +90,7 @@ nav {
 { @supports (-webkit-appearance:none) {
 
     nav {
-        background-color: rgb(13, 5, 11);
+        background-color: rgb(11, 21, 28);
     }
 }}
 .links-list li {
@@ -106,7 +106,7 @@ nav {
     transition: 0.25s ease-in-out;
 }
 .nav-link:hover {
-    color: #D977C8;
+    color: #7BB8DD;
 }
 .button {
     border: 1px solid black;
@@ -122,7 +122,7 @@ nav {
     color: white !important;
 }
 .dropdown-menu {
-    background-color: #0D050B !important;
+    background-color: #0b151c !important;
 }
 .dropdown-item {
     color: white !important;
@@ -136,13 +136,13 @@ nav {
   and (max-width: 1024px) {
     .links-list, .collapse {
         margin-left: 0px;
-        background-color: rgb(13, 5, 11);
+        background-color: rgb(11, 21, 28);
         transform: translateX(-10px);
         width: 100vw;
         border-bottom: 1px solid rgb(30, 30, 30);
     }
     nav {
-        background-color: rgb(13, 5, 11);
+        background-color: rgb(11, 21, 28);
     }
     .nav-link {
         margin: 10px 0;
@@ -307,8 +307,8 @@ nav {
 } */
 
 .card {
-    background-color: rgb(26, 10, 23, 0.5) !important;
-    border: 1px solid rgb(36, 20, 33) !important;
+    background-color: rgb(47, 91, 121, 0.2) !important;
+    border: 1px solid rgb(47, 91, 121, 0.5) !important;
 }
 
 .card-title {
@@ -320,7 +320,7 @@ nav {
 .gallery img {
     height: 200px;
     border-radius: 200px;
-    border: 2px solid #CC66BB;
+    border: 2px solid #C9E2F3;
 }
 .gallery {
     margin: 0 5vw;
@@ -372,13 +372,13 @@ nav {
     background-size: cover;
 } */
 mark {
-    background-color: #803373 !important;
+    background-color: #4B8CB8 !important;
     padding: 2px 5px !important;
     color: white !important;
     border-radius: 3px;
 }
 .production mark {
-    background-color: #401A39 !important;
+    background-color: #2F5B79 !important;
     color: white !important;
 }
 .second-row {
@@ -534,7 +534,7 @@ mark {
 }
 .apply-button {
     margin-bottom: 100px !important;
-    background-color: #67295D !important;
+    background-color: #4B8CB8 !important;
     border: none !important;
     border-radius: 100rem !important;
 }
@@ -566,7 +566,7 @@ mark {
 .apply-button:hover, .apply-button:focus {
     /* box-shadow: 0 8px 12px rgba(0,0,0,0.1), inset 0 10px 30px rgba(255,147,210,0.3), inset 0 2px 2px rgba(255,255,255,0.2); */
     color: white;
-    background-color: #4D1F45 !important; 
+    background-color: #2F5B79 !important; 
     cursor: pointer;
 }
 .modal-content {
@@ -741,11 +741,11 @@ mark {
 }
 
 .secondary {
-    background-color: #803373 !important;
+    background-color: #4B8CB8 !important;
 }
 
 .button {
-    background: #803373;
+    background: #4B8CB8;
     /* border: 1px solid #c40091; */
     /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
     display: inline-block;
@@ -778,7 +778,7 @@ mark {
 .button:hover, .button:focus {
     /* box-shadow: 0 8px 12px rgba(0,0,0,0.1), inset 0 10px 30px rgba(255,147,210,0.3), inset 0 2px 2px rgba(255,255,255,0.2); */
     color: white;
-    background-color: #4D1F45 !important; 
+    background-color: #2F5B79 !important; 
     cursor: pointer;
 }
 
